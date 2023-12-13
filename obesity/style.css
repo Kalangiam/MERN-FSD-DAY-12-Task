@@ -1,0 +1,219 @@
+body{
+    background-color:midnightblue;
+}
+.title{
+    color: brown;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 300px){
+    .title{
+        font-size: 20px;
+    }
+}
+.sub{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 300px){
+    .sub{
+        font-size: 20px;
+    }
+}
+.flex-container{
+   display: flex;
+   flex-direction: row;
+   margin-top:100px;
+   height: 300px;
+   justify-content: center;
+   gap:10px;
+   margin-left: 50px;
+   margin-right: 50px;
+} 
+@media screen and (max-width: 300px){
+    .flex-container{
+        font-size: 20px;
+    }
+}
+.flex1{
+    background-color:orange;
+    height: 300px;
+    width: 50%;
+    padding:10px;
+
+}
+@media screen and (max-width: 300px){
+    .flex1{
+        font-size: 20px;
+    }
+}
+.flex2{
+    background-color:aqua;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+}
+@media screen and (max-width: 300px){
+    .flex2{
+        font-size: 20px;
+    }
+}
+.flex3{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+@media screen and (max-width: 300px){
+    .flex3{
+        font-size: 20px;
+    }
+}
+.flex4{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color:aqua;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+@media screen and (max-width: 300px){
+    .flex4{
+        font-size: 20px;
+    }
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    height: 300px;
+    justify-content: center;
+    gap:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+ } 
+ @media screen and (max-width: 300px){
+    .flex-container1{
+        font-size: 20px;
+    }
+}
+ .flex5{
+     background-color:crimson;
+     height: 300px;
+     width: 50%;
+     padding:10px;
+ 
+ }
+ @media screen and (max-width: 300px){
+    .flex5{
+        font-size: 20px;
+    }
+}
+ .flex6{
+     background-color:orange;
+     height: 300px;
+     width: 50%;
+     padding: 10px;
+ }
+ @media screen and (max-width: 300px){
+    .flex6{
+        font-size: 20px;
+    }
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align:center;
+}
+.flex7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+@media screen and (max-width: 300px){
+    .flex7{
+        font-size: 20px;
+    }
+}
+.flex8{
+    display: flex;
+    background-color:orange;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+
+}
+@media screen and (max-width: 300px){
+    .flex8{
+        font-size: 20px;
+    }
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    height: 300px;
+    justify-content: center;
+    gap:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+ } 
+ @media screen and (max-width: 300px){
+    .flex-container2{
+        font-size: 20px;
+    }
+}
+ .flex9{
+     background-color:aqua;
+     height: 300px;
+     width: 50%;
+     padding:10px;
+ 
+ }
+ @media screen and (max-width: 300px){
+    .flex9{
+        font-size: 20px;
+    }
+}
+ .flex10{
+     background-color:crimson;
+     height: 300px;
+     width: 50%;
+     padding: 10px;
+ }
+ @media screen and (max-width: 300px){
+    .flex10{
+        font-size: 20px;
+    }
+}
